@@ -1,7 +1,12 @@
 
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 div{
     border: black dashed 1px;
     margin: 20px;
+    background-color: rgb(238, 234, 200);
+    color:white
 }
 button{
     padding: 10px;

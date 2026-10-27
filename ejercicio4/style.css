@@ -1,0 +1,26 @@
+.A,.B,.C{
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.contenedor{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(238, 234, 200);
+    border: black dashed 1px; 
+    gap:10px;
+}
+.A{
+    order:2;
+    flex-grow:10;
+}
+
+.C{
+    order:1;
+}

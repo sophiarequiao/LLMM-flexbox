@@ -1,0 +1,43 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    margin: 10px;
+    background-color: rgb(238, 234, 200);
+    border: black dashed 1px; 
+}
+.caja{
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px
+
+}
